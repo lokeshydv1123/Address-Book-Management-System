@@ -1,6 +1,6 @@
 # Address Book Management System
 
-A console-based Address Book Management System developed in C.
+A console-based Address Book Management System developed in C for managing and storing contact information.
 
 ## Features
 
@@ -9,11 +9,11 @@ A console-based Address Book Management System developed in C.
 - Search contacts
 - Edit existing contacts
 - Delete contacts
-- Validate name, mobile number and email
+- Validate name, mobile number, and email
+- Display multiple search results
 - Save contacts to a file
 - Load contacts from a file
-- Display multiple search results
-- File handling for persistent contact storage
+- Persistent contact storage using file handling
 
 ## Technologies Used
 
@@ -22,20 +22,23 @@ A console-based Address Book Management System developed in C.
 - Pointers
 - Arrays
 - Functions
-- File Handling
 - String Handling
-- Makefile
+- File Handling
+- Input Validation
 
 ## Project Structure
 
 ```text
-AddressBook/
+Project_AddressBook/
 │
 ├── main.c
-├── contact.c
 ├── contact.h
-├── file.c
-├── file.h
-├── Makefile
+├── create_contact.c
+├── delete_contacts.c
+├── edit_contacts.c
+├── list_contacts.c
+├── search_contacts.c
+├── save_contact.c
+├── contacts.txt
 ├── .gitignore
 └── README.md
